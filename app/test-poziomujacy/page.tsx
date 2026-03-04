@@ -296,7 +296,7 @@ export default function TestPage() {
                     Powtórz Test
                   </Button>
                   <a href="#kontakt" className="w-full sm:w-auto">
-                    <Button className="w-full" as="div">
+                    <Button className="w-full">
                       Umów się na Konsultację
                     </Button>
                   </a>

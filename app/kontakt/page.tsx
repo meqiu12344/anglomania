@@ -148,12 +148,12 @@ export default function KontaktPage() {
           </p>
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
             <a href="tel:+48123456789">
-              <Button as="div" variant="secondary" className="w-full px-8 py-3 text-lg font-semibold">
+              <Button variant="secondary" className="w-full px-8 py-3 text-lg font-semibold">
                 Zadzwoń
               </Button>
             </a>
             <a href="mailto:kontakt@anglomania.pl">
-              <Button as="div" variant="secondary" className="w-full px-8 py-3 text-lg font-semibold">
+              <Button variant="secondary" className="w-full px-8 py-3 text-lg font-semibold">
                 Wyślij email
               </Button>
             </a>
