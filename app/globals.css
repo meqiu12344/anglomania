@@ -1,26 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --dark-gray: #1e1e1e;
+  --dark-gray-light: #2a2a2a;
+  --blue-accent: #007bff;
+  --blue-accent-light: #1e90ff;
+  --white: #ffffff;
+  --text-dark: #1e1e1e;
+  --text-light: #6b7280;
+  --border-color: #e5e7eb;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--white);
+  color: var(--text-dark);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2rem);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+}
+
+h2 {
+  font-size: clamp(1.6rem, 4.8vw, 2.5rem);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 3.5vw, 1.875rem);
+}
+
+/* CTA Button Styles */
+.btn-primary {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: var(--blue-accent);
+  color: var(--white);
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--blue-accent-light);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: transparent;
+  color: var(--blue-accent);
+  border: 2px solid var(--blue-accent);
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.btn-secondary:hover {
+  background-color: var(--blue-accent);
+  color: var(--white);
+}
+
+/* Section Styling */
+.section {
+  padding: clamp(2.5rem, 6vw, 4rem) 0;
+}
+
+.section-light {
+  background-color: var(--white);
+}
+
+.section-dark {
+  background-color: var(--dark-gray);
+  color: var(--white);
+}
+
+.section-dark h2,
+.section-dark h3 {
+  color: var(--white);
+}
+
+/* Spacing */
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+@media (max-width: 480px) {
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem 1.25rem;
+  }
 }
