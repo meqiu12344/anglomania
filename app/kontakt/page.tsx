@@ -20,117 +20,117 @@ export default function KontaktPage() {
       </section>
 
       {/* Contact Info Section */}
-      <section className="bg-white py-12 md:py-16">
+      <section className="bg-slate-900 py-12 md:py-16">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mb-16 grid gap-8 md:grid-cols-3">
             {/* Email */}
-            <div className="rounded-xl bg-gradient-to-br from-blue-50 to-blue-100 p-8 text-center">
+            <div className="rounded-xl bg-gradient-to-br from-blue-900/40 to-blue-800/40 border border-blue-700 p-8 text-center">
               <div className="mb-4 text-5xl">✉️</div>
-              <h3 className="mb-2 text-xl font-bold text-gray-900">Email</h3>
-              <p className="text-gray-700">
-                <a href="mailto:kontakt@anglomania.pl" className="font-semibold text-blue-600 hover:text-blue-700">
+              <h3 className="mb-2 text-xl font-bold text-white">Email</h3>
+              <p className="text-slate-200">
+                <a href="mailto:kontakt@anglomania.pl" className="font-semibold text-blue-400 hover:text-blue-300">
                   kontakt@anglomania.pl
                 </a>
               </p>
-              <p className="mt-2 text-sm text-gray-600">Odpowiadamy w ciągu 24 godzin</p>
+              <p className="mt-2 text-sm text-slate-400">Odpowiadamy w ciągu 24 godzin</p>
             </div>
 
             {/* Phone */}
-            <div className="rounded-xl bg-gradient-to-br from-sky-50 to-sky-100 p-8 text-center">
+            <div className="rounded-xl bg-gradient-to-br from-sky-900/40 to-sky-800/40 border border-sky-700 p-8 text-center">
               <div className="mb-4 text-5xl">📞</div>
-              <h3 className="mb-2 text-xl font-bold text-gray-900">Telefon</h3>
-              <p className="text-gray-700">
-                <a href="tel:+48123456789" className="font-semibold text-blue-600 hover:text-blue-700">
+              <h3 className="mb-2 text-xl font-bold text-white">Telefon</h3>
+              <p className="text-slate-200">
+                <a href="tel:+48123456789" className="font-semibold text-blue-400 hover:text-blue-300">
                   +48 123 456 789
                 </a>
               </p>
-              <p className="mt-2 text-sm text-gray-600">Pn-Pt: 9:00 - 17:00</p>
+              <p className="mt-2 text-sm text-slate-400">Pn-Pt: 9:00 - 17:00</p>
             </div>
 
             {/* Location */}
-            <div className="rounded-xl bg-gradient-to-br from-indigo-50 to-indigo-100 p-8 text-center">
+            <div className="rounded-xl bg-gradient-to-br from-indigo-900/40 to-indigo-800/40 border border-indigo-700 p-8 text-center">
               <div className="mb-4 text-5xl">📍</div>
-              <h3 className="mb-2 text-xl font-bold text-gray-900">Lokalizacja</h3>
-              <p className="text-gray-700">
+              <h3 className="mb-2 text-xl font-bold text-white">Lokalizacja</h3>
+              <p className="text-slate-200">
                 <span className="font-semibold">Warszawa, Polska</span>
               </p>
-              <p className="mt-2 text-sm text-gray-600">Lekcje online i stacjonarne</p>
+              <p className="mt-2 text-sm text-slate-400">Lekcje online i stacjonarne</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Contact Form Section */}
-      <section className="bg-gradient-to-br from-gray-50 to-white py-12 md:py-16">
+      <section className="bg-slate-800 py-12 md:py-16">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">Wyślij nam wiadomość</h2>
-            <p className="text-gray-600 md:text-lg">Odpowiemy możliwie szybko.</p>
+            <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">Wyślij nam wiadomość</h2>
+            <p className="text-slate-300 md:text-lg">Odpowiemy możliwie szybko.</p>
           </div>
 
-          <div className="rounded-2xl bg-white p-8 shadow-lg md:p-12">
+          <div className="rounded-2xl bg-slate-700 p-8 shadow-lg md:p-12">
             <Contact />
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <section className="bg-white py-12 md:py-16">
+      <section className="bg-slate-900 py-12 md:py-16">
         <div className="mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8">
-          <h2 className="mb-12 text-center text-3xl font-bold text-gray-900 md:text-4xl">Często Zadawane Pytania</h2>
+          <h2 className="mb-12 text-center text-3xl font-bold text-white md:text-4xl">Często Zadawane Pytania</h2>
           
           <div className="space-y-6">
             {/* FAQ Item 1 */}
-            <details className="rounded-lg border border-gray-200 p-6 hover:border-blue-300">
-              <summary className="flex cursor-pointer items-center justify-between text-lg font-semibold text-gray-900">
+            <details className="rounded-lg border border-slate-700 bg-slate-800 p-6 hover:border-blue-500">
+              <summary className="flex cursor-pointer items-center justify-between text-lg font-semibold text-white">
                 Jakie są godziny dostępności?
                 <span className="text-xl">▼</span>
               </summary>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-slate-300">
                 Standardowo: pon.-pt. 9:00-17:00. Inne godziny ustalamy indywidualnie.
               </p>
             </details>
 
             {/* FAQ Item 2 */}
-            <details className="rounded-lg border border-gray-200 p-6 hover:border-blue-300">
-              <summary className="flex cursor-pointer items-center justify-between text-lg font-semibold text-gray-900">
+            <details className="rounded-lg border border-slate-700 bg-slate-800 p-6 hover:border-blue-500">
+              <summary className="flex cursor-pointer items-center justify-between text-lg font-semibold text-white">
                 Czy mogę mieć lekcje online?
                 <span className="text-xl">▼</span>
               </summary>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-slate-300">
                 Tak. Prowadzimy lekcje online i stacjonarne.
               </p>
             </details>
 
             {/* FAQ Item 3 */}
-            <details className="rounded-lg border border-gray-200 p-6 hover:border-blue-300">
-              <summary className="flex cursor-pointer items-center justify-between text-lg font-semibold text-gray-900">
+            <details className="rounded-lg border border-slate-700 bg-slate-800 p-6 hover:border-blue-500">
+              <summary className="flex cursor-pointer items-center justify-between text-lg font-semibold text-white">
                 Jak długa jest pierwsza lekcja?
                 <span className="text-xl">▼</span>
               </summary>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-slate-300">
                 To bezpłatna konsultacja ok. 30 minut.
               </p>
             </details>
 
             {/* FAQ Item 4 */}
-            <details className="rounded-lg border border-gray-200 p-6 hover:border-blue-300">
-              <summary className="flex cursor-pointer items-center justify-between text-lg font-semibold text-gray-900">
+            <details className="rounded-lg border border-slate-700 bg-slate-800 p-6 hover:border-blue-500">
+              <summary className="flex cursor-pointer items-center justify-between text-lg font-semibold text-white">
                 Ile kosztują lekcje?
                 <span className="text-xl">▼</span>
               </summary>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-slate-300">
                 Cena zależy od pakietu i trybu zajęć. Szczegóły znajdziesz w ofercie.
               </p>
             </details>
 
             {/* FAQ Item 5 */}
-            <details className="rounded-lg border border-gray-200 p-6 hover:border-blue-300">
-              <summary className="flex cursor-pointer items-center justify-between text-lg font-semibold text-gray-900">
+            <details className="rounded-lg border border-slate-700 bg-slate-800 p-6 hover:border-blue-500">
+              <summary className="flex cursor-pointer items-center justify-between text-lg font-semibold text-white">
                 Czy mogę anulować lekcję?
                 <span className="text-xl">▼</span>
               </summary>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-slate-300">
                 Tak, przy zgłoszeniu min. 24h wcześniej.
               </p>
             </details>

@@ -18,11 +18,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-white py-12 md:py-16">
+      <section className="bg-slate-900 py-12 md:py-16">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="space-y-12">
             <div className="grid gap-8 lg:grid-cols-2">
-              <div className="overflow-hidden rounded-2xl border-2 border-blue-500 bg-gray-100 shadow-lg shadow-blue-500/10">
+              <div className="overflow-hidden rounded-2xl border-2 border-blue-500 bg-slate-800 shadow-lg shadow-blue-500/10">
                 <Image
                   src="/profile.webp"
                   alt="Zdjęcie nauczyciela"
@@ -44,8 +44,8 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <h2 className="mb-6 text-gray-900">Moja Historia</h2>
-              <div className="space-y-5 text-base leading-8 text-gray-500">
+              <h2 className="mb-6 text-white">Moja Historia</h2>
+              <div className="space-y-5 text-base leading-8 text-slate-300">
                 <p>
                   Uczę angielskiego od ponad 10 lat. Pracuję z młodzieżą i dorosłymi.
                 </p>
@@ -59,7 +59,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-zinc-900 py-12 text-white md:py-16">
+      <section className="bg-slate-800 py-12 text-white md:py-16">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="mb-10 text-center text-white">Kwalifikacje & Doświadczenie</h2>
 
@@ -87,29 +87,29 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-white py-12 md:py-16">
+      <section className="bg-slate-900 py-12 md:py-16">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-          <h2 className="mb-8 text-center">Moja Filozofia Nauczania</h2>
+          <h2 className="mb-8 text-center text-white">Moja Filozofia Nauczania</h2>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-2xl border-2 border-gray-100 p-6 text-center shadow-sm transition hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg"><div className="mb-3 text-5xl">🎯</div><h3 className="mb-3 text-xl text-gray-900">Jasny cel</h3><p className="text-sm leading-6 text-gray-500">Każda lekcja ma konkretny efekt.</p></div>
-            <div className="rounded-2xl border-2 border-gray-100 p-6 text-center shadow-sm transition hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg"><div className="mb-3 text-5xl">🤝</div><h3 className="mb-3 text-xl text-gray-900">Współpraca</h3><p className="text-sm leading-6 text-gray-500">Pracujemy razem i na bieżąco korygujemy plan.</p></div>
-            <div className="rounded-2xl border-2 border-gray-100 p-6 text-center shadow-sm transition hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg"><div className="mb-3 text-5xl">🌟</div><h3 className="mb-3 text-xl text-gray-900">Praktyka</h3><p className="text-sm leading-6 text-gray-500">Mniej teorii, więcej użycia języka.</p></div>
+            <div className="rounded-2xl border-2 border-slate-700 bg-slate-800 p-6 text-center shadow-sm transition hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg"><div className="mb-3 text-5xl">🎯</div><h3 className="mb-3 text-xl text-white">Jasny cel</h3><p className="text-sm leading-6 text-slate-300">Każda lekcja ma konkretny efekt.</p></div>
+            <div className="rounded-2xl border-2 border-slate-700 bg-slate-800 p-6 text-center shadow-sm transition hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg"><div className="mb-3 text-5xl">🤝</div><h3 className="mb-3 text-xl text-white">Współpraca</h3><p className="text-sm leading-6 text-slate-300">Pracujemy razem i na bieżąco korygujemy plan.</p></div>
+            <div className="rounded-2xl border-2 border-slate-700 bg-slate-800 p-6 text-center shadow-sm transition hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg"><div className="mb-3 text-5xl">🌟</div><h3 className="mb-3 text-xl text-white">Praktyka</h3><p className="text-sm leading-6 text-slate-300">Mniej teorii, więcej użycia języka.</p></div>
           </div>
         </div>
       </section>
 
-      <section className="bg-white py-12 md:py-16">
+      <section className="bg-slate-800 py-12 md:py-16">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-          <h2 className="mb-8 text-center">Co mówią moi uczniowie?</h2>
+          <h2 className="mb-8 text-center text-white">Co mówią moi uczniowie?</h2>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-2xl border-l-4 border-blue-600 bg-white p-6 shadow-sm"><div className="mb-3 text-lg">⭐⭐⭐⭐⭐</div><p className="mb-3 text-sm italic leading-7 text-gray-700">"Lekcje były konkretne i zdałam maturę z dobrym wynikiem."</p><p className="text-sm font-semibold text-gray-500">- Anna, klasa XII</p></div>
-            <div className="rounded-2xl border-l-4 border-blue-600 bg-white p-6 shadow-sm"><div className="mb-3 text-lg">⭐⭐⭐⭐⭐</div><p className="mb-3 text-sm italic leading-7 text-gray-700">"Zespół szybko przełamał barierę mówienia w pracy."</p><p className="text-sm font-semibold text-gray-500">- Piotr, CEO</p></div>
-            <div className="rounded-2xl border-l-4 border-blue-600 bg-white p-6 shadow-sm"><div className="mb-3 text-lg">⭐⭐⭐⭐⭐</div><p className="mb-3 text-sm italic leading-7 text-gray-700">"W końcu mówię po angielsku bez stresu."</p><p className="text-sm font-semibold text-gray-500">- Tomasz, pracownik biurowy</p></div>
+            <div className="rounded-2xl border-l-4 border-blue-500 bg-slate-700 p-6 shadow-sm"><div className="mb-3 text-lg">⭐⭐⭐⭐⭐</div><p className="mb-3 text-sm italic leading-7 text-slate-200">"Lekcje były konkretne i zdałam maturę z dobrym wynikiem."</p><p className="text-sm font-semibold text-slate-400">- Anna, klasa XII</p></div>
+            <div className="rounded-2xl border-l-4 border-blue-500 bg-slate-700 p-6 shadow-sm"><div className="mb-3 text-lg">⭐⭐⭐⭐⭐</div><p className="mb-3 text-sm italic leading-7 text-slate-200">"Zespół szybko przełamał barierę mówienia w pracy."</p><p className="text-sm font-semibold text-slate-400">- Piotr, CEO</p></div>
+            <div className="rounded-2xl border-l-4 border-blue-500 bg-slate-700 p-6 shadow-sm"><div className="mb-3 text-lg">⭐⭐⭐⭐⭐</div><p className="mb-3 text-sm italic leading-7 text-slate-200">"W końcu mówię po angielsku bez stresu."</p><p className="text-sm font-semibold text-slate-400">- Tomasz, pracownik biurowy</p></div>
           </div>
         </div>
       </section>
 
-      <section className="bg-zinc-900 py-12 text-white md:py-16">
+      <section className="bg-slate-900 py-12 text-white md:py-16">
         <div className="mx-auto w-full max-w-6xl px-4 text-center sm:px-6 lg:px-8">
           <h2 className="mb-4 text-white">Gotów na zmianę?</h2>
           <p className="mx-auto mb-8 max-w-2xl text-white/85">

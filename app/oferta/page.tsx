@@ -17,7 +17,7 @@ export default function OfertaPage() {
         </div>
       </section>
 
-      <section className="bg-white py-12 md:py-16">
+      <section className="bg-slate-900 py-12 md:py-16">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="space-y-6">
             {offerings.map((offering) => (
@@ -26,29 +26,29 @@ export default function OfertaPage() {
                   <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
                     <div className="text-5xl">{offering.icon}</div>
                     <div className="flex-1">
-                      <h3 className="mb-1 text-2xl text-gray-900">{offering.title}</h3>
-                      <p className="font-semibold text-blue-600">{offering.subtitle}</p>
+                      <h3 className="mb-1 text-2xl text-white">{offering.title}</h3>
+                      <p className="font-semibold text-blue-400">{offering.subtitle}</p>
                     </div>
                   </div>
 
-                  <p className="text-sm leading-7 text-gray-500 md:text-base">{offering.description}</p>
+                  <p className="text-sm leading-7 text-slate-300 md:text-base">{offering.description}</p>
 
-                  <div className="grid gap-4 rounded-lg bg-gray-50 p-4 sm:grid-cols-2 lg:grid-cols-4">
+                  <div className="grid gap-4 rounded-lg bg-slate-800 p-4 sm:grid-cols-2 lg:grid-cols-4">
                     <div>
-                      <p className="text-sm font-semibold text-gray-900">👥 Grupa</p>
-                      <p className="text-sm text-gray-500">{offering.targetAudience}</p>
+                      <p className="text-sm font-semibold text-white">👥 Grupa</p>
+                      <p className="text-sm text-slate-400">{offering.targetAudience}</p>
                     </div>
                     <div>
-                      <p className="text-sm font-semibold text-gray-900">🎂 Wiek</p>
-                      <p className="text-sm text-gray-500">{offering.ageGroup}</p>
+                      <p className="text-sm font-semibold text-white">🎂 Wiek</p>
+                      <p className="text-sm text-slate-400">{offering.ageGroup}</p>
                     </div>
                     <div>
-                      <p className="text-sm font-semibold text-gray-900">⏱️ Czas</p>
-                      <p className="text-sm text-gray-500">{offering.duration}</p>
+                      <p className="text-sm font-semibold text-white">⏱️ Czas</p>
+                      <p className="text-sm text-slate-400">{offering.duration}</p>
                     </div>
                     <div>
-                      <p className="text-sm font-semibold text-gray-900">💰 Cena</p>
-                      <p className="text-sm font-bold text-blue-600">{offering.price}</p>
+                      <p className="text-sm font-semibold text-white">💰 Cena</p>
+                      <p className="text-sm font-bold text-blue-400">{offering.price}</p>
                     </div>
                   </div>
 

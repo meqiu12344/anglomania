@@ -47,6 +47,18 @@ export const offerings: OfferingType[] = [
     duration: '90 min, 2-3 razy w tygodniu',
     price: 'od 80 PLN/lekcja',
   },
+  {
+    id: '4',
+    title: 'Korepetycje dla Dzieci',
+    subtitle: 'Zabawa i nauka przez grę',
+    description:
+      'Lekcje dla dzieci młodszych: słownictwo, zabawy, piosenki i kreatywne ćwiczenia.',
+    icon: '👧',
+    targetAudience: 'Dzieci (klasy I-IV)',
+    ageGroup: '6-10 lat',
+    duration: '45-60 min, 1-2 razy w tygodniu',
+    price: 'od 50 PLN/lekcja',
+  },
 ];
 
 

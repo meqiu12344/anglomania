@@ -20,7 +20,7 @@ export default function Section({
   className = '',
 }: SectionProps) {
   const sectionVariant =
-    variant === 'dark' ? 'bg-zinc-900 text-white' : 'bg-white text-gray-900';
+    variant === 'dark' ? 'bg-slate-900 text-white' : 'bg-slate-800 text-white';
 
   return (
     <section
@@ -31,7 +31,7 @@ export default function Section({
         {title && (
           <div className="mb-10 text-center">
             <h2>{title}</h2>
-            {subtitle && <p className="mx-auto mt-3 max-w-3xl text-gray-500">{subtitle}</p>}
+            {subtitle && <p className="mx-auto mt-3 max-w-3xl text-slate-400">{subtitle}</p>}
             {badge && (
               <span className="mt-4 inline-block rounded-full bg-blue-600 px-4 py-1 text-sm font-semibold text-white">
                 {badge}

@@ -16,8 +16,8 @@ export default function Card({
   padding = 'md',
 }: CardProps) {
   const variantClasses = {
-    light: 'bg-white border border-gray-200 text-gray-900 shadow-sm',
-    dark: 'bg-zinc-900 border border-white/10 text-white shadow-md',
+    light: 'bg-slate-800 border border-slate-700 text-slate-100 shadow-sm',
+    dark: 'bg-slate-700 border border-slate-600 text-white shadow-md',
     transparent: 'bg-white/10 border border-white/20 text-white backdrop-blur-md',
   };
 

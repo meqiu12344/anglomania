@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="pl" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-white text-gray-900 antialiased overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-slate-900 text-white antialiased overflow-x-hidden`}
       >
         <Header />
         {children}

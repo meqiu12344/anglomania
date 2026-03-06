@@ -11,7 +11,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/98 shadow-md backdrop-blur-sm">
+    <header className="sticky top-0 z-50 border-b border-slate-700 bg-slate-900/95 shadow-md backdrop-blur-sm">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
@@ -22,19 +22,19 @@ export default function Header() {
 
         {/* Navigation - Desktop */}
         <nav className="hidden md:flex md:items-center md:justify-center md:gap-8 flex-1 px-8">
-          <Link href="/" className="font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">
+          <Link href="/" className="font-medium text-slate-200 hover:text-blue-400 transition-colors duration-200">
             Strona główna
           </Link>
-          <Link href="/oferta" className="font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">
+          <Link href="/oferta" className="font-medium text-slate-200 hover:text-blue-400 transition-colors duration-200">
             Oferta
           </Link>
-          <Link href="/o-mnie" className="font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">
+          <Link href="/o-mnie" className="font-medium text-slate-200 hover:text-blue-400 transition-colors duration-200">
             O mnie
           </Link>
-          <a href="/test-poziomujacy" className="font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">
+          <a href="/test-poziomujacy" className="font-medium text-slate-200 hover:text-blue-400 transition-colors duration-200">
             Test poziomujący
           </a>
-          <a href="/kontakt" className="font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">
+          <a href="/kontakt" className="font-medium text-slate-200 hover:text-blue-400 transition-colors duration-200">
             Kontakt
           </a>
         </nav>
@@ -50,7 +50,7 @@ export default function Header() {
         <button
           onClick={toggleMenu}
           aria-label="Toggle menu"
-          className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg text-gray-800 hover:bg-gray-100 transition-colors duration-200"
+          className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg text-slate-200 hover:bg-slate-800 transition-colors duration-200"
         >
           <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             {isMenuOpen ? (
@@ -64,24 +64,24 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden border-t border-gray-200 bg-white">
+        <div className="md:hidden border-t border-slate-700 bg-slate-900">
           <nav className="flex flex-col space-y-1 px-4 py-4">
-            <Link href="/" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-200">
+            <Link href="/" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:text-blue-400 hover:bg-slate-800 transition-colors duration-200">
               Strona główna
             </Link>
-            <Link href="/oferta" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-200">
+            <Link href="/oferta" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:text-blue-400 hover:bg-slate-800 transition-colors duration-200">
               Oferta
             </Link>
-            <Link href="/o-mnie" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-200">
+            <Link href="/o-mnie" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:text-blue-400 hover:bg-slate-800 transition-colors duration-200">
               O mnie
             </Link>
-            <a href="/test-poziomujacy" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-200">
+            <a href="/test-poziomujacy" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:text-blue-400 hover:bg-slate-800 transition-colors duration-200">
               Test poziomujący
             </a>
-            <a href="/kontakt" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-200">
+            <a href="/kontakt" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:text-blue-400 hover:bg-slate-800 transition-colors duration-200">
               Kontakt
             </a>
-            <div className="pt-2 border-t border-gray-200">
+            <div className="pt-2 border-t border-slate-700">
               <a href="/kontakt" onClick={() => setIsMenuOpen(false)} className="block w-full rounded-lg bg-blue-600 px-4 py-2 text-center font-semibold text-white hover:bg-blue-700 transition-colors duration-200">
                 Umów się
               </a>

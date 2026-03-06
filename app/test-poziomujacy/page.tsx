@@ -99,12 +99,12 @@ const questions: Question[] = [
 ];
 
 const levelDescriptions = {
-  A1: { name: 'Beginner', color: 'bg-red-100 text-red-800', description: 'Posługujesz się językiem angielskim na bardzo podstawowym poziomie' },
-  A2: { name: 'Elementary', color: 'bg-orange-100 text-orange-800', description: 'Masz podstawową znajomość angielskiego' },
-  B1: { name: 'Intermediate', color: 'bg-yellow-100 text-yellow-800', description: 'Możesz się porozumieć w typowych sytuacjach' },
-  B2: { name: 'Upper Intermediate', color: 'bg-lime-100 text-lime-800', description: 'Posługujesz się angielskim sprawnie' },
-  C1: { name: 'Advanced', color: 'bg-blue-100 text-blue-800', description: 'Masz zaawansowaną znajomość angielskiego' },
-  C2: { name: 'Proficiency', color: 'bg-green-100 text-green-800', description: 'Mówisz angielskim praktycznie jak native speaker' }
+  A1: { name: 'Beginner', color: 'bg-red-900/40 text-red-200', description: 'Posługujesz się językiem angielskim na bardzo podstawowym poziomie' },
+  A2: { name: 'Elementary', color: 'bg-orange-900/40 text-orange-200', description: 'Masz podstawową znajomość angielskiego' },
+  B1: { name: 'Intermediate', color: 'bg-yellow-900/40 text-yellow-200', description: 'Możesz się porozumieć w typowych sytuacjach' },
+  B2: { name: 'Upper Intermediate', color: 'bg-lime-900/40 text-lime-200', description: 'Posługujesz się angielskim sprawnie' },
+  C1: { name: 'Advanced', color: 'bg-blue-900/40 text-blue-200', description: 'Masz zaawansowaną znajomość angielskiego' },
+  C2: { name: 'Proficiency', color: 'bg-green-900/40 text-green-200', description: 'Mówisz angielskim praktycznie jak native speaker' }
 };
 
 export default function TestPage() {
@@ -213,64 +213,64 @@ export default function TestPage() {
     return (
       <main>
         {/* Results Section */}
-        <section className="min-h-screen bg-gradient-to-br from-zinc-50 to-white py-12 md:py-20">
+        <section className="min-h-screen bg-slate-900 py-12 md:py-20">
           <div className="mx-auto w-full max-w-2xl px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h1 className="mb-2 text-4xl font-bold text-gray-900 md:text-5xl">Twój Wynik</h1>
-              <p className="mb-12 text-lg text-gray-600">Test ukończony. Oto Twój poziom.</p>
+              <h1 className="mb-2 text-4xl font-bold text-white md:text-5xl">Twój Wynik</h1>
+              <p className="mb-12 text-lg text-slate-300">Test ukończony. Oto Twój poziom.</p>
 
               {/* Score Card */}
-              <div className="mb-12 rounded-2xl bg-white p-8 shadow-lg md:p-12">
-                <div className="mb-8 text-6xl font-bold text-blue-600">{percentage}%</div>
+              <div className="mb-12 rounded-2xl bg-slate-800 p-8 shadow-lg md:p-12">
+                <div className="mb-8 text-6xl font-bold text-blue-400">{percentage}%</div>
                 
                 <div className={`mx-auto mb-8 w-full max-w-xs rounded-xl p-6 ${levelInfo.color}`}>
                   <div className="text-2xl font-bold md:text-3xl">{level}</div>
                   <div className="mt-2 text-lg font-semibold">{levelInfo.name}</div>
                 </div>
 
-                <p className="mb-6 text-gray-600 md:text-lg">{levelInfo.description}</p>
+                <p className="mb-6 text-slate-300 md:text-lg">{levelInfo.description}</p>
 
-                <div className="mb-8 rounded-lg bg-gray-50 p-6">
-                  <p className="text-sm text-gray-700">
+                <div className="mb-8 rounded-lg bg-slate-700 p-6">
+                  <p className="text-sm text-slate-200">
                     <span className="font-bold">Twój wynik:</span> {score} na {questions.length} poprawnych odpowiedzi
                   </p>
                 </div>
 
                 {/* Level-specific recommendations */}
                 <div className="mb-8 space-y-4 text-left">
-                  <h3 className="text-xl font-bold text-gray-900">Rekomendacje:</h3>
+                  <h3 className="text-xl font-bold text-white">Rekomendacje:</h3>
                   {level === 'A1' && (
-                    <div className="space-y-2 rounded-lg bg-red-50 p-4 text-red-900">
+                    <div className="space-y-2 rounded-lg bg-red-900/30 p-4 text-red-200">
                       <p>• Zacznij kurs od podstaw</p>
                       <p>• Ćwicz słownictwo i proste zdania</p>
                     </div>
                   )}
                   {level === 'A2' && (
-                    <div className="space-y-2 rounded-lg bg-orange-50 p-4 text-orange-900">
+                    <div className="space-y-2 rounded-lg bg-orange-900/30 p-4 text-orange-200">
                       <p>• Wzmacniaj gramatykę i słownictwo</p>
                       <p>• Ćwicz krótkie rozmowy</p>
                     </div>
                   )}
                   {level === 'B1' && (
-                    <div className="space-y-2 rounded-lg bg-yellow-50 p-4 text-yellow-900">
+                    <div className="space-y-2 rounded-lg bg-yellow-900/30 p-4 text-yellow-200">
                       <p>• Wybierz kurs intermediate</p>
                       <p>• Pracuj nad płynnością mówienia</p>
                     </div>
                   )}
                   {level === 'B2' && (
-                    <div className="space-y-2 rounded-lg bg-lime-50 p-4 text-lime-900">
+                    <div className="space-y-2 rounded-lg bg-lime-900/30 p-4 text-lime-200">
                       <p>• Zapisz się na kurs upper-intermediate</p>
                       <p>• Rozwijaj pisanie i argumentację</p>
                     </div>
                   )}
                   {level === 'C1' && (
-                    <div className="space-y-2 rounded-lg bg-blue-50 p-4 text-blue-900">
+                    <div className="space-y-2 rounded-lg bg-blue-900/30 p-4 text-blue-200">
                       <p>• Bardzo dobry poziom języka</p>
                       <p>• Rozwijaj słownictwo specjalistyczne</p>
                     </div>
                   )}
                   {level === 'C2' && (
-                    <div className="space-y-2 rounded-lg bg-green-50 p-4 text-green-900">
+                    <div className="space-y-2 rounded-lg bg-green-900/30 p-4 text-green-200">
                       <p>• Świetny wynik — poziom biegły</p>
                       <p>• Utrzymuj kontakt z językiem na co dzień</p>
                     </div>
@@ -280,7 +280,7 @@ export default function TestPage() {
 
               {/* CTA Section */}
               <div className="space-y-4">
-                <p className="text-lg font-semibold text-gray-900">Chcesz iść krok dalej?</p>
+                <p className="text-lg font-semibold text-white">Chcesz iść krok dalej?</p>
                 <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
                   <Button 
                     onClick={restartTest}
@@ -310,15 +310,15 @@ export default function TestPage() {
   return (
     <main>
       {/* Test Section */}
-      <section className="min-h-screen bg-gradient-to-br from-zinc-50 to-white py-8 md:py-12">
+      <section className="min-h-screen bg-slate-900 py-8 md:py-12">
         <div className="mx-auto w-full max-w-2xl px-4 sm:px-6 lg:px-8">
           {/* Progress Bar */}
           <div className="mb-8">
             <div className="mb-2 flex items-center justify-between">
-              <span className="text-sm font-semibold text-gray-700">Pytanie {currentQuestion + 1} z {questions.length}</span>
-              <span className="text-sm font-semibold text-gray-700">{percentage}%</span>
+              <span className="text-sm font-semibold text-slate-300">Pytanie {currentQuestion + 1} z {questions.length}</span>
+              <span className="text-sm font-semibold text-slate-300">{percentage}%</span>
             </div>
-            <div className="h-2 overflow-hidden rounded-full bg-gray-200">
+            <div className="h-2 overflow-hidden rounded-full bg-slate-700">
               <div 
                 className="h-full bg-gradient-to-r from-blue-600 to-sky-500 transition-all duration-300"
                 style={{ width: `${progress}%` }}
@@ -327,16 +327,16 @@ export default function TestPage() {
           </div>
 
           {/* Question Card */}
-          <div className="mb-8 rounded-2xl bg-white p-6 shadow-lg md:p-8">
+          <div className="mb-8 rounded-2xl bg-slate-800 p-6 shadow-lg md:p-8">
             {/* Level Badge */}
             <div className="mb-6 inline-block">
-              <span className="inline-block rounded-full bg-blue-100 px-3 py-1 text-sm font-semibold text-blue-800">
+              <span className="inline-block rounded-full bg-blue-900/40 px-3 py-1 text-sm font-semibold text-blue-200">
                 Poziom: {question.level}
               </span>
             </div>
 
             {/* Question */}
-            <h2 className="mb-8 text-2xl font-bold text-gray-900 md:text-3xl">
+            <h2 className="mb-8 text-2xl font-bold text-white md:text-3xl">
               {question.question}
             </h2>
 
@@ -348,14 +348,14 @@ export default function TestPage() {
                   onClick={() => handleAnswerClick(index)}
                   className={`w-full rounded-lg border-2 p-4 text-left font-medium transition-all duration-200 ${
                     selectedAnswer === index
-                      ? 'border-blue-600 bg-blue-50 text-blue-900'
-                      : 'border-gray-200 bg-white text-gray-900 hover:border-blue-300 hover:bg-blue-50'
+                      ? 'border-blue-400 bg-blue-900/40 text-blue-100'
+                      : 'border-slate-600 bg-slate-700 text-slate-200 hover:border-blue-500 hover:bg-slate-700'
                   }`}
                 >
                   <span className="inline-block mr-3 rounded-full w-6 h-6 flex items-center justify-center font-bold text-sm flex"
                     style={{
-                      backgroundColor: selectedAnswer === index ? '#2563eb' : '#e5e7eb',
-                      color: selectedAnswer === index ? 'white' : '#374151',
+                      backgroundColor: selectedAnswer === index ? '#3b82f6' : '#475569',
+                      color: selectedAnswer === index ? 'white' : '#cbd5e1',
                       display: 'flex',
                     }}
                   >
@@ -372,7 +372,7 @@ export default function TestPage() {
             <button
               onClick={handlePrevious}
               disabled={currentQuestion === 0}
-              className="flex-1 rounded-lg border-2 border-gray-300 bg-white px-6 py-3 font-semibold text-gray-900 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              className="flex-1 rounded-lg border-2 border-slate-600 bg-slate-800 px-6 py-3 font-semibold text-slate-200 hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
               ← Poprzednie
             </button>

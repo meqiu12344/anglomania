@@ -25,7 +25,7 @@ export default function WhyChoose() {
   ];
 
   return (
-    <section className="bg-white py-12 md:py-16" id="oferta">
+    <section className="bg-slate-800 py-12 md:py-16" id="oferta">
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12 flex flex-col items-center gap-3 text-center">
           <h2>Dlaczego Anglo Mania</h2>
@@ -34,15 +34,15 @@ export default function WhyChoose() {
 
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-start">
           <div>
-            <ol className="space-y-5 border-l-2 border-blue-100 pl-4 sm:pl-6">
+            <ol className="space-y-5 border-l-2 border-blue-500 pl-4 sm:pl-6">
               {reasons.map((reason, idx) => (
-                <li key={idx} className="relative rounded-2xl border border-gray-100 bg-white p-5 shadow-sm transition hover:border-blue-200 hover:shadow-md">
-                  <div className="absolute -left-[1.35rem] top-[30%] flex h-9 w-9 items-center justify-center rounded-full border-2 border-white bg-blue-600 text-sm font-bold text-white shadow">
+                <li key={idx} className="relative rounded-2xl border border-slate-600 bg-slate-700 p-5 shadow-sm transition hover:border-blue-400 hover:shadow-md">
+                  <div className="absolute -left-[1.35rem] top-[30%] flex h-9 w-9 items-center justify-center rounded-full border-2 border-slate-700 bg-blue-600 text-sm font-bold text-white shadow">
                     {idx + 1}
                   </div>
 
-                  <h3 className="mb-1 text-xl text-gray-900">{reason.title}</h3>
-                  <p className="text-sm leading-6 text-gray-600">{reason.description}</p>
+                  <h3 className="mb-1 text-xl text-white">{reason.title}</h3>
+                  <p className="text-sm leading-6 text-slate-300">{reason.description}</p>
                 </li>
               ))}
             </ol>
