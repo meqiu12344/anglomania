@@ -24,7 +24,7 @@ export default function Card({
   const paddingClasses = {
     sm: 'p-4',
     md: 'p-6',
-    lg: 'p-8',
+    lg: 'p-6',
   };
 
   const hoverClass = hover

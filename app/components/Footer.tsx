@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="mb-8 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <h4 className="mb-4 text-lg font-semibold text-blue-400">Anglo Mania</h4>
-            <p className="text-sm leading-6 text-white/70">Profesjonalne korepetycje z języka angielskiego na najwyższym poziomie.</p>
+            <p className="text-sm leading-6 text-white/70">Korepetycje z angielskiego dla młodzieży i dorosłych.</p>
           </div>
 
           <div>

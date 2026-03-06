@@ -15,7 +15,7 @@ export default function KontaktPage() {
         
         <div className="relative mx-auto w-full max-w-6xl px-4 text-center sm:px-6 lg:px-8">
           <h1 className="mb-4 text-4xl font-bold md:text-5xl">Skontaktuj się z nami</h1>
-          <p className="text-base text-zinc-200 md:text-xl">Mamy pytania? Jesteśmy tu, aby Ci pomóc. Napiszemy do Ciebie najszybciej jak się da.</p>
+          <p className="text-base text-zinc-200 md:text-xl">Masz pytanie? Napisz lub zadzwoń.</p>
         </div>
       </section>
 
@@ -65,7 +65,7 @@ export default function KontaktPage() {
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mb-12 text-center">
             <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">Wyślij nam wiadomość</h2>
-            <p className="text-gray-600 md:text-lg">Wypełnij poniższy formularz, a my skontaktujemy się z Tobą najszybciej jak się da</p>
+            <p className="text-gray-600 md:text-lg">Odpowiemy możliwie szybko.</p>
           </div>
 
           <div className="rounded-2xl bg-white p-8 shadow-lg md:p-12">
@@ -87,7 +87,7 @@ export default function KontaktPage() {
                 <span className="text-xl">▼</span>
               </summary>
               <p className="mt-4 text-gray-600">
-                Jestem dostępna od poniedziałku do piątku w godzinach 9:00 - 17:00. Lekcje mogą odbywać się również w inne czasy w zależności od Twoich potrzeb. Umów się na konsultację, aby ustalić najwygodniejszy czas.
+                Standardowo: pon.-pt. 9:00-17:00. Inne godziny ustalamy indywidualnie.
               </p>
             </details>
 
@@ -98,7 +98,7 @@ export default function KontaktPage() {
                 <span className="text-xl">▼</span>
               </summary>
               <p className="mt-4 text-gray-600">
-                Oczywiście! Oferuję zarówno lekcje stacjonarne jak i online. Lekcje online odbywają się poprzez platformy takie jak Zoom, Skype lub Google Meet. Możesz wybrać opcję, która Ci najlepiej odpowiada.
+                Tak. Prowadzimy lekcje online i stacjonarne.
               </p>
             </details>
 
@@ -109,7 +109,7 @@ export default function KontaktPage() {
                 <span className="text-xl">▼</span>
               </summary>
               <p className="mt-4 text-gray-600">
-                Pierwsza lekcja to bezpłatna konsultacja trwająca około 30 minut. Podczas niej oceniam Twój poziom angielskiego, poznaję Twoje cele i dostosowuję program nauczania do Twoich potrzeb.
+                To bezpłatna konsultacja ok. 30 minut.
               </p>
             </details>
 
@@ -120,7 +120,7 @@ export default function KontaktPage() {
                 <span className="text-xl">▼</span>
               </summary>
               <p className="mt-4 text-gray-600">
-                Ceny zależą od wybranego pakietu, liczby lekcji i ich rodzaju (online/stacjonarne). Szczegółowe informacje o cenach znajdziesz w sekcji Oferta. Oferuję również specjalne rabaty na pakiety lekcji.
+                Cena zależy od pakietu i trybu zajęć. Szczegóły znajdziesz w ofercie.
               </p>
             </details>
 
@@ -131,7 +131,7 @@ export default function KontaktPage() {
                 <span className="text-xl">▼</span>
               </summary>
               <p className="mt-4 text-gray-600">
-                Oczywiście! Jeśli chcesz anulować lekcję, prosimy o wcześniejsze powiadomienie co najmniej 24 godziny przed zaplanowanym czasem. W takim przypadku możemy przełożyć lekcję na inny termin.
+                Tak, przy zgłoszeniu min. 24h wcześniej.
               </p>
             </details>
           </div>
@@ -144,7 +144,7 @@ export default function KontaktPage() {
         <div className="relative mx-auto w-full max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <h2 className="mb-6 text-3xl font-bold md:text-4xl">Gotowy do nauki angielskiego?</h2>
           <p className="mb-8 text-base text-blue-100 md:text-lg">
-            Umów się na bezpłatną konsultację już dzisiaj i zacznij swoją podróż do biegłości angielskiej
+            Umów bezpłatną konsultację i zacznij już dziś.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
             <a href="tel:+48123456789">

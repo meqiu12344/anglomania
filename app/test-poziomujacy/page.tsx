@@ -173,7 +173,7 @@ export default function TestPage() {
           
           <div className="relative mx-auto w-full max-w-4xl px-4 text-center sm:px-6 lg:px-8">
             <h1 className="mb-6 text-4xl font-bold md:text-5xl">Test Poziomujący</h1>
-            <p className="mb-8 text-lg text-zinc-200 md:text-xl">Sprawdź swój poziom znajomości języka angielskiego i otrzymaj personalizowane rekomendacje</p>
+            <p className="mb-8 text-lg text-zinc-200 md:text-xl">Sprawdź swój poziom angielskiego w kilka minut.</p>
             
             <div className="mb-12 inline-block rounded-xl bg-white/10 p-8 backdrop-blur-sm">
               <div className="space-y-4 text-left">
@@ -191,7 +191,7 @@ export default function TestPage() {
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="text-2xl">💡</span>
-                  <p className="text-base md:text-lg">Rekomendacje dotyczące dalszej nauki</p>
+                  <p className="text-base md:text-lg">Krótka rekomendacja nauki</p>
                 </div>
               </div>
             <Button 
@@ -217,7 +217,7 @@ export default function TestPage() {
           <div className="mx-auto w-full max-w-2xl px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="mb-2 text-4xl font-bold text-gray-900 md:text-5xl">Twój Wynik</h1>
-              <p className="mb-12 text-lg text-gray-600">Test ukończony! Oto Twój poziom zaawansowania</p>
+              <p className="mb-12 text-lg text-gray-600">Test ukończony. Oto Twój poziom.</p>
 
               {/* Score Card */}
               <div className="mb-12 rounded-2xl bg-white p-8 shadow-lg md:p-12">
@@ -241,44 +241,38 @@ export default function TestPage() {
                   <h3 className="text-xl font-bold text-gray-900">Rekomendacje:</h3>
                   {level === 'A1' && (
                     <div className="space-y-2 rounded-lg bg-red-50 p-4 text-red-900">
-                      <p>• Rozpocznij z kursem dla początkujących</p>
-                      <p>• Skoncentruj się na podstawowej gramatyce i słownictwie</p>
-                      <p>• Ćwicz wymowę i słuchanie angielskiego</p>
+                      <p>• Zacznij kurs od podstaw</p>
+                      <p>• Ćwicz słownictwo i proste zdania</p>
                     </div>
                   )}
                   {level === 'A2' && (
                     <div className="space-y-2 rounded-lg bg-orange-50 p-4 text-orange-900">
-                      <p>• Wzmacniaj swoją gramatykę i słownictwo</p>
-                      <p>• Pracuj nad konwersacją w prostych sytuacjach</p>
-                      <p>• Słuchaj angielskich piosenek i filmów dla początkujących</p>
+                      <p>• Wzmacniaj gramatykę i słownictwo</p>
+                      <p>• Ćwicz krótkie rozmowy</p>
                     </div>
                   )}
                   {level === 'B1' && (
                     <div className="space-y-2 rounded-lg bg-yellow-50 p-4 text-yellow-900">
-                      <p>• Kurs intermediate będzie idealny dla Ciebie</p>
-                      <p>• Pracuj nad wymową i biegłością mówienia</p>
-                      <p>• Czytaj artykuły i oglądam filmy w angielskim</p>
+                      <p>• Wybierz kurs intermediate</p>
+                      <p>• Pracuj nad płynnością mówienia</p>
                     </div>
                   )}
                   {level === 'B2' && (
                     <div className="space-y-2 rounded-lg bg-lime-50 p-4 text-lime-900">
                       <p>• Zapisz się na kurs upper-intermediate</p>
-                      <p>• Pracuj nad napisem i mową na bardziej zaawansowanych poziomach</p>
-                      <p>• Czytaj książki i artykuły dla zaawansowanych</p>
+                      <p>• Rozwijaj pisanie i argumentację</p>
                     </div>
                   )}
                   {level === 'C1' && (
                     <div className="space-y-2 rounded-lg bg-blue-50 p-4 text-blue-900">
-                      <p>• Twoje umiejętności są na wysokim poziomie</p>
-                      <p>• Skoncentruj się na specjalistycznym słownictwie</p>
-                      <p>• Przygotuj się do egzaminów Cambridge Advanced lub TOEFL</p>
+                      <p>• Bardzo dobry poziom języka</p>
+                      <p>• Rozwijaj słownictwo specjalistyczne</p>
                     </div>
                   )}
                   {level === 'C2' && (
                     <div className="space-y-2 rounded-lg bg-green-50 p-4 text-green-900">
-                      <p>• Gratulacje! Twoja angielszyzna jest na najwyższym poziomie</p>
-                      <p>• Rozważ przygotowanie do egzaminu Cambridge Proficiency</p>
-                      <p>• Możesz pracować jako tłumacz lub nauczyciel angielskiego</p>
+                      <p>• Świetny wynik — poziom biegły</p>
+                      <p>• Utrzymuj kontakt z językiem na co dzień</p>
                     </div>
                   )}
                 </div>
@@ -286,7 +280,7 @@ export default function TestPage() {
 
               {/* CTA Section */}
               <div className="space-y-4">
-                <p className="text-lg font-semibold text-gray-900">Chcesz udoskonalić swoje umiejętności?</p>
+                <p className="text-lg font-semibold text-gray-900">Chcesz iść krok dalej?</p>
                 <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
                   <Button 
                     onClick={restartTest}

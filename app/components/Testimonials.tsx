@@ -6,19 +6,19 @@ export default function Testimonials() {
     {
       name: 'Anna K.',
       role: 'Uczeń klasy 8',
-      text: 'Dzięki zajęciom z panem Kacprem znacznie poprawiłam moje oceny z angielskiego i teraz nie boję się rozmawiać po angielsku!',
+      text: 'Poprawiłam oceny i zaczęłam swobodnie mówić po angielsku.',
       rating: 5,
     },
     {
       name: 'Jakub M.',
       role: 'Maturzysta',
-      text: 'Intensywne przygotowanie do matury było super! Dostałem 92% z angielskiego i jestem niezwykle zadowolony z wyników.',
+      text: 'Przygotowanie do matury było świetne. Wynik: 92%.',
       rating: 5,
     },
     {
       name: 'Marta P.',
       role: 'Pracownica biura',
-      text: 'Kursy dla dorosłych były dokładnie tym, czego potrzebowałam do mojej pracy. Pan Kacper ma świetne podejście do nauczania.',
+      text: 'Kurs pomógł mi w pracy i codziennej komunikacji.',
       rating: 5,
     },
   ];

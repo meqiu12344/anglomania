@@ -6,7 +6,7 @@ export default function TestCTA() {
         <div className="mx-auto max-w-3xl">
           <h2>Sprawdź swój poziom angielskiego</h2>
           <p className="mt-4 text-base leading-7 text-white/95 md:text-lg">
-            Weź udział w naszym bezpłatnym teście do zaledwie 15 minut! Dowiedz się, jaki jest Twój obecny poziom angielskiego i jakie są Twoje kolejne kroki do fluencji.
+            Krótki, bezpłatny test pokaże Twój poziom i następny krok nauki.
           </p>
           <button className="mt-8 inline-flex w-full items-center justify-center rounded-lg border-2 border-white bg-white px-6 py-3 text-base font-semibold text-blue-600 transition hover:-translate-y-0.5 hover:bg-blue-50 sm:w-auto sm:px-10 sm:py-4 sm:text-lg">
             ✍️ Rozpocznij test

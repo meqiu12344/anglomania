@@ -6,7 +6,7 @@ export default function Contact() {
 
         <div className="grid gap-10 md:grid-cols-2">
           <div>
-            <h3 className="mb-6 text-2xl text-gray-900">Skontaktuj się z nami</h3>
+            <h3 className="mb-6 text-2xl text-gray-900">Dane kontaktowe</h3>
 
             <div className="mb-6 flex items-start gap-4">
               <span className="text-2xl">📞</span>
@@ -32,7 +32,7 @@ export default function Contact() {
               <span className="text-2xl">🕐</span>
               <div>
                 <p className="mb-1 font-semibold text-gray-900">Godziny pracy</p>
-                <p className="text-gray-500">Poniedziałek - Piątek: 14:00 - 20:00</p>
+                <p className="text-gray-500">Pon.-Pt.: 14:00 - 20:00</p>
                 <p className="text-gray-500">Sobota: 10:00 - 14:00</p>
               </div>
             </div>
@@ -47,7 +47,7 @@ export default function Contact() {
           </div>
 
           <div>
-            <h3 className="mb-6 text-2xl text-gray-900">Prześlij wiadomość</h3>
+            <h3 className="mb-6 text-2xl text-gray-900">Napisz wiadomość</h3>
             <form className="flex flex-col gap-4">
               <input
                 className="rounded-lg border border-gray-300 px-4 py-3 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10"

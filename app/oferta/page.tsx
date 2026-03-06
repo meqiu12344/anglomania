@@ -13,7 +13,7 @@ export default function OfertaPage() {
         <div className="absolute -right-40 -top-40 h-[32rem] w-[32rem] rounded-full bg-blue-500/20 blur-3xl" />
         <div className="relative mx-auto w-full max-w-6xl px-4 text-center sm:px-6 lg:px-8">
           <h1 className="mb-4">Nasza Oferta</h1>
-          <p className="text-base text-zinc-200 md:text-xl">Wybierz kurs dostosowany do Twoich potrzeb i celów</p>
+          <p className="text-base text-zinc-200 md:text-xl">Wybierz kurs dopasowany do Twojego celu</p>
         </div>
       </section>
 
@@ -68,7 +68,7 @@ export default function OfertaPage() {
         <div className="mx-auto w-full max-w-6xl px-4 text-center sm:px-6 lg:px-8">
           <h2 className="mb-4">Nie wiesz, która oferta jest dla Ciebie?</h2>
           <p className="mx-auto mb-8 max-w-2xl text-white/85">
-            Skontaktuj się z nami! Pomożemy Ci wybrać najlepszy kurs do Twoich potrzeb i możliwości.
+            Napisz do nas, a pomożemy wybrać najlepszy kurs.
           </p>
           <Button variant="secondary" size="lg" as="a" href="#kontakt">
             Umów bezpłatną konsultację
